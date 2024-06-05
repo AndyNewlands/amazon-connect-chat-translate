@@ -190,6 +190,7 @@ const Ccp = () => {
     // *****
     useEffect(() => {
         const connectUrl = process.env.REACT_APP_CONNECT_INSTANCE_URL;
+        const connectUrl2 = process.env.REACT_APP_CONNECT_INSTANCE_URL;
         window.connect.agentApp.initApp(
             "ccp",
             "ccp-container",
