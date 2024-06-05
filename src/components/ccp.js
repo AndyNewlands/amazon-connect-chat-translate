@@ -189,8 +189,8 @@ const Ccp = () => {
     // Loading CCP
     // *****
     useEffect(() => {
-        const connectUrl = process.env.REACT_APP_CONNECT_INSTANCE_URL;
-        const connectUrl2 = process.env.REACT_APP_CONNECT_INSTANCE_URL;
+        // const connectUrl = process.env.REACT_APP_CONNECT_INSTANCE_URL;
+        const connectUrl = "https://britannictest.my.connect.aws"
         window.connect.agentApp.initApp(
             "ccp",
             "ccp-container",
